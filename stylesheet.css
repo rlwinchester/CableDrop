@@ -1,0 +1,120 @@
+.clear {
+    clear:both;
+}
+#parentdiv {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+#USBimg {
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    background-image:url("images/usb.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    float:left;
+}
+#DVIimg {
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    background-image:url("images/dvi.jpg");
+    background-size: 100%;
+    cursor:pointer;
+	background-repeat:no-repeat;
+    float:left;
+}
+#VGAimg {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    background-size: 100%;
+    cursor:pointer;
+    float:left;
+}
+#Fiberimg {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    background-size: 100%;
+    cursor:pointer;
+    float:left;    
+}
+#FireWireimg {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    background-size: 100%;
+    cursor:pointer;
+    float:left;
+}
+#HDMIimg {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    background-size: 100%;
+    cursor:pointer;
+    float:left;
+}
+#USBtext {
+	clear:both;
+	background-color:white;
+	border-style:solid;
+	border-bottom-width:2px;
+	padding:2px;
+    margin-top: 25px;
+    margin-left: 50px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;
+}
+#DVItext {
+	border-style:solid;
+	border-bottom-width:2px;
+	padding:2px;
+	margin-left: 20px;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;
+}
+#VGAtext {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;
+}
+#Fibertext {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;    
+}
+#FireWiretext {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;
+}
+#HDMItext {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    cursor:pointer;
+    float:left;
+}
+
+#resetdiv {
+	clear:both;
+	margin-top:35px;
+	float:left;
+}
+
