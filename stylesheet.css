@@ -6,110 +6,130 @@
     height: 100%;
     width: 100%;
 }
+table{
+    width:50%;
+    text-align:left;
+    }
+
+td {
+    border: 2px solid black;
+    width:25%;
+}
 #USBimg {
-    margin-top: 25px;
-    margin-left: 50px;
-    height: 200px;
-    width: 200px;
-    background-image:url("images/usb.jpg");
+    clear:both;
+    width:200px;
+    height:200px;
+    margin-top:25px;
+    background-image:url("images/usb.png");
     background-size: 100%;
     background-repeat:no-repeat;
-    cursor:pointer;
     float:left;
 }
 #DVIimg {
-    margin-top: 25px;
-    height: 200px;
-    width: 200px;
-    background-image:url("images/dvi.jpg");
+    clear:both;
+    width:200px;
+    height:200px;
+    background-image:url("images/dvi.png");
     background-size: 100%;
-    cursor:pointer;
 	background-repeat:no-repeat;
     float:left;
 }
 #VGAimg {
-    margin-top: 25px;
-    height: auto;
-    width: auto;
+    clear:both;
+    width:200px;
+    height:200px;
+    background-image:url("images/VGA.png");
     background-size: 100%;
-    cursor:pointer;
     float:left;
 }
 #Fiberimg {
-    margin-top: 25px;
-    height: auto;
-    width: auto;
+    clear:both;
+    width:200px;
+    height:200px;
+    background-image:url("images/fiber.png");
     background-size: 100%;
-    cursor:pointer;
     float:left;    
 }
 #FireWireimg {
-    margin-top: 25px;
-    height: auto;
-    width: auto;
+    clear:both;
+    width:200px;
+    height:200px;
+    background-image:url("images/firewire.png");
     background-size: 100%;
-    cursor:pointer;
     float:left;
 }
 #HDMIimg {
-    margin-top: 25px;
-    height: auto;
-    width: auto;
+    clear:both;
+    width:200px;
+    height:200px;
+    background-image:url("images/hdmi.png");
     background-size: 100%;
-    cursor:pointer;
     float:left;
 }
 #USBtext {
-	clear:both;
-	background-color:white;
 	border-style:solid;
 	border-bottom-width:2px;
-	padding:2px;
-    margin-top: 25px;
-    margin-left: 50px;
+	background-color:white;
+    font-size:85%;
+	padding:8px;
     height: auto;
-    width: auto;
+    width: 50%;
     cursor:pointer;
-    float:left;
 }
 #DVItext {
 	border-style:solid;
+    background-color:white;
 	border-bottom-width:2px;
-	padding:2px;
-	margin-left: 20px;
+    font-size:85%;
+	padding:8px;
     margin-top: 25px;
     height: auto;
-    width: auto;
+    width: 50%;
     cursor:pointer;
-    float:left;
 }
 #VGAtext {
+	border-style:solid;
+    background-color:white;
+	border-bottom-width:2px;
+    font-size:85%;
+	padding:8px;
     margin-top: 25px;
     height: auto;
-    width: auto;
+    width: 50%;
     cursor:pointer;
-    float:left;
 }
 #Fibertext {
+	border-style:solid;
+    background-color:white;
+    font-size:85%;
+	border-bottom-width:2px;
+	padding:8px;
     margin-top: 25px;
     height: auto;
-    width: auto;
+    width: 50%;
     cursor:pointer;
-    float:left;    
 }
 #FireWiretext {
+	border-style:solid;
+    background-color:white;
+    font-size:85%;
+	border-bottom-width:2px;
+	padding:8px;
     margin-top: 25px;
     height: auto;
-    width: auto;
+    width: 50%;
     cursor:pointer;
-    float:left;
 }
 #HDMItext {
+	border-style:solid;
+    background-color:white;
+    font-size:85%;
+	border-bottom-width:2px;
+	padding:8px;
     margin-top: 25px;
     height: auto;
-    width: auto;
+    width:50%;
     cursor:pointer;
-    float:left;
 }
 
 #resetdiv {

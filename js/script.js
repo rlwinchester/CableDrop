@@ -15,14 +15,26 @@ $(document).ready(function() {
         cursor:'move',
         revert: 'invalid',
         start:function(){$(this).stop(true,true)}
-    });
+	});
+	$('#FireWiretext').draggable({
+	    opacity: .5,
+	    create: function () { $(this).data('position', $(this).position()) },
+	    cursorAt: { left: 15 },
+	    cursor: 'move',
+	    revert: 'invalid',
+	    start: function () { $(this).stop(true, true) }
+	});
 
     $("#USBtext").data({'originalLeft': $("#USBtext").css('left'),
         'origionalTop': $("#USBtext").css('top')
     });
 	 $("#DVItext").data({'originalLeft': $("#DVItext").css('left'),
         'origionalTop': $("#DVItext").css('top')
-    });
+	 });
+	 $("#FireWiretext").data({
+	     'originalLeft': $("#FireWiretext").css('left'),
+	     'origionalTop': $("#FireWiretext").css('top')
+	 });
 
     $('#USBimg').droppable({
         drop: function( event, ui ) {
